@@ -1,0 +1,133 @@
+.footer {
+  background-color: #111;
+  color: #fff;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.footer-logo img {
+  height: 50px;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.footer-links li a {
+  text-decoration: none;
+  color: #fff;
+  transition: color 0.3s;
+}
+
+.footer-links li a:hover {
+  color: #00bfff;
+}
+
+/* ✅ Contact Me Form Styling */
+.footer-contact-form {
+  margin-top: 30px;
+  width: 100%;
+  max-width: 400px;
+  background-color: #1a1a1a;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.05);
+}
+
+.footer-contact-form h3 {
+  font-size: 20px;
+  margin-bottom: 15px;
+  color: #00bfff;
+}
+
+.footer-contact-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.footer-contact-form input,
+.footer-contact-form textarea {
+  background-color: #222;
+  border: 1px solid #333;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 14px;
+  resize: none;
+}
+
+.footer-contact-form input:focus,
+.footer-contact-form textarea:focus {
+  border-color: #00bfff;
+  outline: none;
+}
+
+.footer-contact-form button {
+  padding: 10px;
+  background-color: #00bfff;
+  color: #111;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.footer-contact-form button:hover {
+  background-color: #009fd1;
+}
+
+.footer-socials {
+  margin-top: 30px;
+}
+
+.footer-socials a {
+  margin: 0 10px;
+  display: inline-block;
+}
+
+.footer-socials img {
+  width: 35px;
+  height: 35px;
+  transition: transform 0.3s;
+}
+
+.footer-socials img:hover {
+  transform: scale(1.1);
+}
+
+.footer-copyright {
+  margin-top: 30px;
+}
+
+.footer-copyright hr {
+  border: none;
+  border-top: 1px solid #555;
+  margin-bottom: 10px;
+}
+
+.footer-copyright p {
+  font-size: 14px;
+  color: #aaa;
+}

@@ -1,0 +1,37 @@
+.admin-orders {
+  padding: 30px;
+  background-color: #f9f9f9;
+  color: #333;
+  min-height: 100vh;
+}
+
+.order-card {
+  background-color: #fff;
+  padding: 20px 25px;
+  margin-bottom: 25px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  border: 1px solid #ddd;
+}
+
+.order-card h4 {
+  margin-bottom: 15px; /* Increased heading bottom space */
+  font-size: 16px;
+  color: #222;
+}
+
+.order-card p {
+  margin: 10px 0; /* More space between info lines */
+  font-size: 15px;
+  color: #444;
+}
+
+.order-product-list {
+  margin-top: 15px;
+  padding-left: 20px;
+}
+
+.order-product-list li {
+  font-size: 14px;
+  margin-bottom: 8px; /* More space between product items */
+}

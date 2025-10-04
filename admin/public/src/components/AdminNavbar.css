@@ -1,0 +1,19 @@
+.admin-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #111;
+  color: #fff;
+  padding: 10px 20px;
+}
+
+.admin-navbar ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+.admin-navbar a {
+  color: #fff;
+  text-decoration: none;
+}
